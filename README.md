@@ -39,7 +39,7 @@ if you clone existing rails project by cloning repository
 
 ```shell
 # create credentials
-docker-compose run --rm --no-deps -e EDITOR="vi" app bundle exec rails bin/rails credentials:edit
+docker-compose run --rm --no-deps -e EDITOR="vi" app bundle exec rails credentials:edit
 ```
 
 ## Boot server
